@@ -1,0 +1,28 @@
+<student>
+    <firstname>gopi </firstname>
+    <dob>05-04-1988</dob>
+    <age>38</age>
+    <address>704, F3Block, IVY Apartment</address>
+
+    <firstname>gopi </firstname>
+    <dob>05-04-1988</dob>
+    <age>38</age>
+    <address>
+        <flatno>704</flatno>
+        <Building> F3-Block</Building>
+        <societyName> IVY Apartment</societyName>
+    </address>
+
+    <addresses>
+        <address Type="Temporary">
+            <flatno>704</flatno>
+            <Building> F3-Block</Building>
+            <societyName> IVY Apartment</societyName>
+        </address>
+        <address Type="Permanent">
+            <flatno>704</flatno>
+            <Building> F3-Block</Building>
+            <societyName> IVY Apartment</societyName>
+        </address>
+    </addresses>
+</student>
