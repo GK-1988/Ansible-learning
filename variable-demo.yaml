@@ -1,0 +1,13 @@
+---
+- name: Variable Demo
+  hosts: localhost
+  connection: local
+
+
+  vars:
+    name: Krishna
+
+  tasks: 
+    - name: Print name
+      debug:
+        msg: "My name is {{ name }}"
