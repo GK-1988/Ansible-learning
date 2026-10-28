@@ -1,9 +1,16 @@
 - name: demo on debug
   hosts: local
   connection: local
+  vars: 
+    course: DevOps
 
   tasks:
     - name: print Hello World
       debug:
         msg: "Hello Ansible..!"
-        
+    - name: print Learning Ansible
+      debug:
+        msg: "Learning Ansible"
+    - name: print the message
+      debug: 
+        msg: "Course is {{ course }}"
