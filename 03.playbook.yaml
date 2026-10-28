@@ -18,5 +18,5 @@
         msg: "Course is {{ course }}"
     - name: print message
       debug:
-        msg: "My name is {{ name }}, I live in {{ pune }}"
-        
+        msg: "My name is {{ name }}, I live in {{ city }}"
+
