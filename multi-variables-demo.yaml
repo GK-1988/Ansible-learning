@@ -1,0 +1,15 @@
+---
+- name: Employee Details
+  hosts: localhost
+  connection: local
+
+  vars:
+    emp_name: GK
+    city: Pune
+    company: BGSCPL
+
+  tasks: 
+    - name: print employee details
+      debug:
+        msg: "Employee {{ emp_name }} works in {{ company }} at {{ city }}"
+        
