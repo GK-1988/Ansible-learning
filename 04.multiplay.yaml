@@ -1,0 +1,20 @@
+---
+- name: Install Software
+  hosts: localhost
+  connection: local
+
+
+  tasks:
+    - debug:
+        msg: "Install nginx"
+
+
+- name: Start Software
+  hosts: localhost
+  connection: local
+
+  tasks:
+    - debug:
+        msg: "Starting nginx"
+
+        
