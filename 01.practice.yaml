@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  connection: local
+
+  vars:
+    name: Rshul
+    course: DevOps
+
+
+  tasks:
+    - debug:
+        msg: "{{ name }} is learning {{ course }}"
+        
