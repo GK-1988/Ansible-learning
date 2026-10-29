@@ -1,7 +1,7 @@
 ---
 - hosts: localhost
   connection: local
-
+  
 
   users:
       - ram
@@ -11,4 +11,3 @@
   tasks:
    - debug:
       msg: "{{ users[1] }}"
-      
