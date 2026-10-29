@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  connection: local
+
+  vars:
+    student:
+      name: John
+      city: Mumbai
+  tasks:
+    - debug: 
+        msg: "{{ student.name }} lives in {{ student.city }}"
