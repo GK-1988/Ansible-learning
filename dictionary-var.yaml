@@ -9,4 +9,4 @@
       Salary: 100US
   tasks:
     - debug: 
-        msg: "{{ emplaoyee.name, employee.city, employee.Salary}}"
+        msg: "{{ employee.name, employee.city, employee.Salary}}"
