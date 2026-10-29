@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  connection: local
+
+
+  users:
+      - ram
+      - shyam
+      - king
+
+  tasks:
+   - debug:
+      msg: "{{ users[1] }}"
+      
