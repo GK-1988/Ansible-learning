@@ -12,5 +12,4 @@
 
   tasks:
     - debug:
-        msg: "name {{ name}} age is {{ age }}  and  I live in {{ city }} and works in {{ company }}, I have total experience is {{ experience }} years"
-        
+        msg: "My name is {{ name}} and my age is {{ age }}, I live in {{ city }} and works in {{ company }}, I have total experience is {{ experience }} years"
