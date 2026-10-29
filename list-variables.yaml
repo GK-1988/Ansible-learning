@@ -12,3 +12,5 @@
   tasks:
     - debug: 
         msg: "{{ pacakges }}"
+    - debug:
+        msg: "{{ pacakges [0] }}"
