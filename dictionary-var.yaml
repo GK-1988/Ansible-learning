@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  connection: local
+
+  vars:
+    employee:
+      name: Venu
+      city: USA
+      Salary: 100US
+  tasks:
+    - debug: 
+        msg: "{{ emplaoyee.name, employee.city, employee.Salary}}"
