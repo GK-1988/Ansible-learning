@@ -1,0 +1,13 @@
+---
+- name: boolean variables
+  hosts: localhost
+  connection: local
+
+  vars:
+    nginx_installed: true
+
+  tasks:
+    - debug: 
+        msg: "Nginx status is {{ nginx_installed. }}"
+
+        
