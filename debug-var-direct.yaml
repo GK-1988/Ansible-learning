@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  connection: local
+
+
+  vars:
+    name: Gopi Krishna
+
+  tasks:
+    - debug:
+        var: name
