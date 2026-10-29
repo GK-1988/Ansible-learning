@@ -1,0 +1,14 @@
+---
+- name: list the variables
+  hosts: localhost
+  connection: local
+
+  vars:
+    pacakges:
+      - nginx
+      - git
+      - docker
+      - jenkins
+  taks:
+    - debug: 
+        msg: "{{ pacakges }}"
