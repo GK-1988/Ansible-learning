@@ -10,3 +10,7 @@
   tasks:
     - debug: 
         msg: "{{ employee.name, employee.city, employee.Salary}}"
+    - debug:
+        msg: "Employee name is {{ employee.name}} and i live in {{ employee.city}}. My salary is {{ employee.Salary}}."
+
+        
