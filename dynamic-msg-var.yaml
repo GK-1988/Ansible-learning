@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  connection: local
+
+  vars:
+    name: Gk
+    skill: DevOps
+
+  tasks:
+    - debug:
+        msg: "{{ name }} is learning {{ skill }}."
