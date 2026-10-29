@@ -1,0 +1,16 @@
+---
+- name: Numbers Demo
+  hosts: localhost
+  connection: local
+
+  vars:
+    name: Krishna    
+    age: 38
+    city: Pune
+    company: BGSCPL
+    experience: 10
+
+  tasks:
+    - debug:
+        msg: "name {{ name}} age is {{ age }}  and  I live in {{ city }} and works in {{ company }}, I have total experience is {{ experience }} years"
+        
