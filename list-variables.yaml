@@ -9,6 +9,6 @@
       - git
       - docker
       - jenkins
-  taks:
+  tasks:
     - debug: 
         msg: "{{ pacakges }}"
