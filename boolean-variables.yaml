@@ -8,6 +8,5 @@
 
   tasks:
     - debug: 
-        msg: "Nginx status is {{ nginx_installed. }}"
+        msg: "Nginx status is {{ nginx_installed }}."
 
-        
