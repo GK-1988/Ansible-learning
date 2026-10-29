@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+  connection: local
+
+
+  vars:
+    application: nginx
+    version: 1.24
+    server: web01
+
+  tasks:
+    - debug: 
+        msg: "Installing {{ application }} version {{ version }} on {{ server }}"
+
+        
